@@ -1,0 +1,21 @@
+@import "mixins";
+@import "reset";
+
+body {
+  background-color: #000;
+}
+
+.wrapper {
+  width: 100%;
+  min-height: 100%;
+  height: 100%;
+  overflow: hidden;
+  @include flexbox();
+}
+.wave-btn {
+  &__text {
+  }
+
+  &__waves {
+  }
+}
